@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+body{
+    background-color: #fafafa;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+}
+.Head{
+    margin: 5rem 0 4rem 0;
+}
+.HeadFirstLine{
+    color: #777779;
+    font-weight: 200;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+.HeadSecondLine{
+    color: #44434b;
+    font-weight: 600;
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.HeadParagraph{
+    color: #a5a5a7;
+    text-align: center;
+    margin: 1rem 2rem;
+}
+.container{
+    width: 18.125rem;
+    /*height: 12.75rem;*/
+    max-height: 12.75rem;
+    background-color: #fff;
+    margin: auto;   
+    border-radius: 0.5rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0px 5px 10px 3px rgba(182, 212, 247, 0.3);
+}
+.supervisor{
+    border-top: 3px solid #45d3d3;
+}
+.teamb{
+    border-top: 3px solid #ea5353;
+}
+.karma{
+    border-top: 3px solid #fcaf4a;
+}
+.calculator{
+    border-top: 3px solid #549ef2 ;
+}
+.CardTitle{
+    margin: 1.5rem 0 0 1.625rem;
+    color: #3f3f4b;
+    font-size: 1.25rem;
+}
+.CardText{
+    margin: 0.25rem 0 1.5rem 1.625rem;
+    font-size: 0.75rem;
+    color: #b1b1b1;
+}
+.ContImg{
+    display: flex;
+    justify-content: flex-end;
+}
+.CardImg{
+    width: 3.25rem;
+    height: 3.25rem;
+    padding: 0 1.625rem 1.625rem 0;
+}
+/*MEDIA QUERIES*/
+@media screen and (min-width: 1440px){
+
+.HeadFirstLine{
+    font-size: 1.85rem;
+}
+.HeadSecondLine{
+    font-size: 1.85rem;
+}
+.HeadParagraph{
+    margin: 1rem auto;
+    max-width: 32rem;
+}
+
+.Cards{
+    margin: auto;
+    max-width: 90rem;
+    display: flexbox;
+    flex-direction: column;
+
+}   
+
+.supervisor{
+    position: relative;
+    float: left;
+    left: 16rem;
+    top: 7rem;
+}
+
+
+.calculator{
+    position: relative;
+    float: right;
+    right: 16rem;
+    bottom: 21.1rem;
+}
+}
